@@ -72,7 +72,7 @@ Ensure you have the following installed:
  
 ## Data Analysis
 ```Python
-#importation of dependencies
+#importation of the necessary libraries
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
