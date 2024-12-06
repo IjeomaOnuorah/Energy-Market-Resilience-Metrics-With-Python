@@ -7,14 +7,14 @@
 - [Getting started](#getting-started)
 - [Instructions](#instructions)
 - [Data Preprocessing](#data-preprocessing)
-- [Dependencies](#dependencies)
+- [Data Analysis](#data-analysis)
 - [Sample Visualizations](#sample-visualizations)
 - [Recommendations](#recommendations)
 - [Data Source](#data-source)
 - [Contact](#contact)
 
 ## Overview
-This project focuses on analyzing the resilience of energy markets using historical, infrastructure, and market datasets. The goal is to identify trends and factors affecting market stability and provide actionable insights for stakeholders.
+This project focuses on analyzing the resilience of energy markets using historical, infrastructure, and market datasets of Energix Enterprise. The goal is to identify trends and factors affecting market stability and provide actionable insights for stakeholders.
 
 ## Features
 - Cleaning and preprocessing data.
@@ -46,8 +46,14 @@ Click 🧨[here](https://drive.google.com/drive/folders/1yMs4UH3Kumu37IvgNrSh22o
 
 ## Getting Started
 Ensure you have the following installed:
-- Python (>= 3.8)
-- Jupyter Notebook
+- Programming language - Python (>= 3.8)
+- Libraries
+  - Numpy: For performing mathematical operations over data
+  - Pandas: For Data Analysis and Manipulation
+  - Matplotlib.pyplot: For Data Visualization
+  - Seaborn: For Data Visualization
+- Jupyter Notebook: For documenting and presenting the analysis.
+
 
 ## Instructions
 1. Clone or download this repository to your local machine.
@@ -64,7 +70,7 @@ Ensure you have the following installed:
   - Converted date columns to datetime format.
   - Normalized numerical columns to bring all values into a similar scale for analysis.
  
-## Dependencies
+## Data Analysis
 ```Python
 #importation of dependencies
 import pandas as pd
@@ -72,6 +78,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 ```
+
+### Exploratory Data Analysis (EDA): 
+- Explore historical trends, market dynamics, and key variables using Python. Identify patterns, outliers, and anomalies in the data using Python.
+- Optimization Strategies: Develop pricing and production optimization strategies based on data analysis using Python. Implement strategies to adapt to changing market conditions using Python.
+- Infrastructure Upgrade: Identify technology gaps and implement infrastructure upgrades for improved efficiency using Python. Integrate real-time monitoring and reporting systems using Python.
+- Resilience Planning: Create a comprehensive resilience plan in Python, outlining response procedures for various disruptions.Conduct simulations and stress tests using Python to evaluate the effectiveness of the plan.
+
 
 ## Sample Visualizations
 ### 1. Energy Demand, Production and Consumption Trends
